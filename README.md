@@ -16,6 +16,6 @@ SoftTrans is an English to French Neural Machine Translation system, specially d
 (v)   Subword-nmt
 
 # USAGE INSTRUCTIONS
-You need to ...
+To be continued ...
 
     
