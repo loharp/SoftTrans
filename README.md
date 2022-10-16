@@ -9,11 +9,11 @@ SoftTrans is an English to French Neural Machine Translation system, specially d
 
 
 # REQUIREMENTS
-i.   Python >= 3.6
-ii.  PyTorch >= 1.9.0
-iii. OpenNMT-py
-iv.  sacremoses
-v.   Subword-nmt
+(i)   Python >= 3.6
+(ii)  PyTorch >= 1.9.0
+(iii) OpenNMT-py
+(iv)  sacremoses
+(v)   Subword-nmt
 
 # USAGE INSTRUCTIONS
 You need to ...
