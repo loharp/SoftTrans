@@ -19,7 +19,7 @@ SoftTrans is an English to French Neural Machine Translation system, specially d
 
 # USAGE INSTRUCTIONS
 Step-1: 
-Once the above tools and libraries are installed, pleas download the translation model from the following link
+Once the above tools and libraries are installed, please download the translation model from the following link
 https://drive.google.com/file/d/14Hmt0n8L08MGTYW_rc7H_ux9dgnBi9yI/view?usp=sharing
 
 Step-2:
