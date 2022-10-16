@@ -23,10 +23,10 @@ Once the above tools and libraries are installed, please download the translatio
 https://drive.google.com/file/d/14Hmt0n8L08MGTYW_rc7H_ux9dgnBi9yI/view?usp=sharing
 
 Step-2:
-Create a directory, such as "SoftTrans" and keep this translation model including the other files (sample.en, trans.sh and bpe.model) provided in this repository
+Create a directory, for example, "SoftTrans" and put this translation model including the other files (sample.en, trans.sh and bpe.model) provided in this repository
 
 Step-3:
-Open the "trans.sh" and make sure that the file names and paths are correct. You can change the paths if you want. Note that the "src=en" and "tgt=fr" are used to denote the source-language (English) and target-language (French) codes. The "sample.en" contains two input sentences in English. You can change*** the sentences.
+Open the "trans.sh" and make sure that the file names are correct. You can change the paths if you want. However, if you keep all the files inside a single directory, it should run without Note that the "src=en" and "tgt=fr" are used to denote the source-language (English) and target-language (French) codes. The "sample.en" contains two input sentences in English. You can change*** the sentences.
 
 Step-4:
 In this final step, simply run the shell script,
