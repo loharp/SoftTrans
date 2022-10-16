@@ -7,7 +7,7 @@ Project Homepage: https://github.com/loharp/SoftTrans
 
 # GENERAL INFO
 
-SoftTrans is an English to French Neural Machine Translation system, specially designed for translating software product descriptions provided on LinkedIn webpages. This work is a collaboration between ADAPT Centre (Ireland) and LinkedIn corporation (Ireland). The system is trained on a combination of several corpora which are then filtered using keyBERT (Grootendorst, 2020) and LASER (Artetxe et. al., 2018) toolkits, and tuned on an in-domain development data set.
+SoftTrans is an English to French Neural Machine Translation system, especially developed for translating software product descriptions provided on LinkedIn webpages. This work is a collaboration between ADAPT Centre (Ireland) and LinkedIn corporation (Ireland). The system is trained on a combination of several corpora which are then filtered using keyBERT (Grootendorst, 2020) and LASER (Artetxe et. al., 2018) toolkits, and tuned on an in-domain development data set.
 
 
 # REQUIREMENTS
@@ -19,14 +19,14 @@ SoftTrans is an English to French Neural Machine Translation system, specially d
 
 # USAGE INSTRUCTIONS
 Step-1: 
-Once the above tools and libraries are installed, please download the translation model from the following link
+Once the above tools and libraries are installed, please download the translation model from the following link:
 https://drive.google.com/file/d/14Hmt0n8L08MGTYW_rc7H_ux9dgnBi9yI/view?usp=sharing
 
 Step-2:
 Create a directory, for example, "SoftTrans" and put this translation model including the other files (sample.en, trans.sh and bpe.model) provided in this repository
 
 Step-3:
-Open the "trans.sh" and make sure that the file names are correct. Note that the "src=en" and "tgt=fr" are used to denote the source-language (English) and target-language (French) codes. The "sample.en" contains two input sentences in English. You can change the sentences***.
+Open the "trans.sh" and make sure that the file names are correct. Note that the "src=en" and "tgt=fr" are used to denote the source-language (English) and target-language (French) codes. The "sample.en" contains two input sentences in English. You can change these sentences***.
 
 Step-4:
 In this final step, simply run the shell script,
