@@ -1,14 +1,12 @@
 #!/bin/sh
 
+
 #Path declaration
-
-
 src=en
 tgt=fr
 transModel=en-to-fr_TM.pt
 bpeModel=bpe.model
 testFile=sample.en
-
 
 
 echo normalising input ....
