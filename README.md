@@ -23,7 +23,7 @@ Once the above tools and libraries are installed, please download the translatio
 https://drive.google.com/file/d/14Hmt0n8L08MGTYW_rc7H_ux9dgnBi9yI/view?usp=sharing
 
 Step-2:
-Create a directory, for example, "SoftTrans" and put this translation model including the other files (sample.en, trans.sh and bpe.model) provided in this repository
+Put the downloaded translation model in the main project directory
 
 Step-3:
 Open the "trans.sh" and make sure that the file names are correct. Note that the "src=en" and "tgt=fr" are used to denote the source-language (English) and target-language (French) codes. The "sample.en" contains two input sentences in English. You can change these sentences***.
