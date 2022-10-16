@@ -1,6 +1,8 @@
 # SoftTrans
 
-========= A software product translation system from English to French
+========= 
+A software product translation system from English to French
+
 Project Homepage: https://github.com/loharp/SoftTrans
 
 # GENERAL INFO
