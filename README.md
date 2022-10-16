@@ -36,7 +36,7 @@ sh trans.sh
 The outputs will be stored in the "sample.en.trans.restored.detok" file.
 
 
-If you are using this system, please cite the following paper:
+If you use this system, please cite the following paper:
 
 @inproceedings{DBLP:conf/amta/LoharMOPH22,
   author    = {Pintu Lohar and
