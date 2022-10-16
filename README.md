@@ -16,8 +16,53 @@ SoftTrans is an English to French Neural Machine Translation system, specially d
 (v)   Subword-nmt
 
 # USAGE INSTRUCTIONS
+Step-1: 
 Once the above tools and libraries are installed, pleas download the translation model from the following link
 https://drive.google.com/file/d/14Hmt0n8L08MGTYW_rc7H_ux9dgnBi9yI/view?usp=sharing
+
+Step-2:
+Create a directory, such as "SoftTrans" and keep this translation model including the other files (sample.en, trans.sh and bpe.model) provided in this directory
+
+Step-3:
+Open the "trans.sh" and make sure that the file names and paths are correct. You can change the paths if you want. Note that the "src=en" and "tgt=fr" are used to denote the source-language (English) and target-language (French) codes. The "sample.en" contains two input sentences in English. You can change*** the sentences.
+
+Step-4:
+In this final step, simply run the shell script,
+
+sh trans.sh
+
+The outputs will be stored in the "sample.en.trans.restored.detok" file.
+
+
+If you are using this system, please cite the following paper:
+
+@inproceedings{DBLP:conf/amta/LoharMOPH22,
+  author    = {Pintu Lohar and
+               Sinead Madden and
+               Edmond O'Connor and
+               Maja Popovic and
+               Tanya Habruseva},
+  editor    = {Kevin Duh and
+               Francisco Guzm{\'{a}}n and
+               Stephen Richardson},
+  title     = {Building Machine Translation System for Software Product Descriptions
+               Using Domain-specific Sub-corpora Extraction},
+  booktitle = {Proceedings of the 15th biennial conference of the Association for
+               Machine Translation in the Americas (Volume 1: Research Track), {AMTA}
+               2022, Orlando, USA, September 12-16, 2022},
+  pages     = {1--13},
+  publisher = {Association for Machine Translation in the Americas},
+  year      = {2022},
+  url       = {https://aclanthology.org/2022.amta-research.1},
+  timestamp = {Mon, 26 Sep 2022 16:58:59 +0200},
+  biburl    = {https://dblp.org/rec/conf/amta/LoharMOPH22.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+
+
+***The system is designed mainly to translation software related texts. Due to this reason, if you provide input sentences from different domains, for example, from medical domain, the translation quality may be poor. 
+
 
 
 
