@@ -26,14 +26,14 @@ Step-2:
 Put the downloaded translation model in the main project directory
 
 Step-3:
-Open the "trans.sh" and make sure that the file names are correct. Note that the "src=en" and "tgt=fr" are used to denote the source-language (English) and target-language (French) codes. The "sample.en" contains two input sentences in English. You can change these sentences***.
+Open the "trans.sh" and make sure that the file names are correct. Note that the "src=en" and "tgt=fr" are used to denote the source-language (English) and target-language (French) codes. The "sample.en" contains two input sentences in English. You can add add many sentences as you want. Please note that the translation quality is likely to be better for software related text as the system is developed for this domain.
 
 Step-4:
 In this final step, simply run the shell script,
 
 sh trans.sh
 
-The outputs will be stored in the "sample.en.trans.restored.detok" file.
+The outputs will be stored in the "sample.en.trans.restored.detok" file. Note that there are two commands for translation, the one with GPU usage has been commented. If you run it on a GPU, uncomment this and comment the activated one. The translation operation is quicker for GPU, as expected.
 
 
 If you use this system, please cite the following paper:
@@ -61,9 +61,6 @@ If you use this system, please cite the following paper:
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 
-
-
-***The system is designed mainly to translation software related texts. Due to this reason, if you provide input sentences from different domains, for example, from sports domain, the translation quality may be poor. 
 
 
 
